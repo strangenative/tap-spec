@@ -1,4 +1,4 @@
-# TAP — Tonal Acoustic Profile
+# TAP — Acoustic Profile for Stringed Instruments
 
 An open standard for capturing the acoustic identity of stringed instruments, from raw materials to finished masterpiece.
 
