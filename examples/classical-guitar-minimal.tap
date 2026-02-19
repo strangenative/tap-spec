@@ -1,0 +1,46 @@
+{
+  "tap_version": "1.0",
+  "instrument": {
+    "id": "8f14e45f-ceea-467f-a83c-0a06b5f1b27d",
+    "type": "classical-guitar",
+    "body_shape": "classical",
+    "scale_length_mm": 650,
+    "description": "Student build, red cedar top, sapele back and sides"
+  },
+  "materials": [
+    {
+      "id": "mat-001",
+      "component": "soundboard",
+      "material_class": "wood",
+      "species": "red-cedar",
+      "physical": {
+        "dimensions_mm": { "length": 510, "width": 210, "thickness": 3.0 },
+        "weight_g": 145
+      },
+      "acoustic": {
+        "tap_tones": [
+          { "mode": "longitudinal", "frequency_hz": 580 },
+          { "mode": "cross", "frequency_hz": 170 }
+        ]
+      }
+    },
+    {
+      "id": "mat-002",
+      "component": "back",
+      "material_class": "wood",
+      "species": "sapele"
+    },
+    {
+      "id": "mat-003",
+      "component": "sides",
+      "material_class": "wood",
+      "species": "sapele"
+    }
+  ],
+  "meta": {
+    "created": "2026-01-15T08:00:00Z",
+    "sharing": {
+      "license": "CC0"
+    }
+  }
+}

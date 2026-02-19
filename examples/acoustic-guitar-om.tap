@@ -1,0 +1,217 @@
+{
+  "tap_version": "1.0",
+  "instrument": {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "name": "The Oakland",
+    "type": "acoustic-guitar",
+    "family": "plucked",
+    "body_shape": "OM",
+    "scale_length_mm": 648,
+    "string_config": {
+      "count": 6,
+      "courses": 6,
+      "tuning": ["E2", "A2", "D3", "G3", "B3", "E4"],
+      "fretted": true,
+      "fret_count": 20
+    },
+    "build_date": "2026-02",
+    "serial_number": "RM-014",
+    "description": "Fan-braced OM, Engelmann spruce top, Indian rosewood back and sides"
+  },
+  "builder": {
+    "id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+    "name": "Russ Maschmeyer",
+    "location": "Oakland, CA"
+  },
+  "materials": [
+    {
+      "id": "mat-001",
+      "component": "soundboard",
+      "component_detail": "top plate, bookmatched",
+      "material_class": "wood",
+      "species": "engelmann-spruce",
+      "species_detail": "Picea engelmannii, Colorado origin",
+      "supplier": "LMI",
+      "grade": "AAA",
+      "acquired_date": "2025-11-15",
+      "physical": {
+        "dimensions_mm": { "length": 540, "width": 220, "thickness": 4.5 },
+        "weight_g": 185,
+        "density_kg_m3": 380,
+        "grain_spacing_mm": 1.8,
+        "moisture_content_pct": 7.5
+      },
+      "acoustic": {
+        "tap_tones": [
+          { "mode": "longitudinal", "frequency_hz": 680, "damping": 0.012 },
+          { "mode": "cross", "frequency_hz": 195, "damping": 0.018 }
+        ],
+        "speed_of_sound_long_m_s": 5800,
+        "speed_of_sound_cross_m_s": 1200,
+        "radiation_ratio": 12.5
+      },
+      "notes": "Beautiful tight grain, slight bear claw figuring. Very stiff for its weight."
+    },
+    {
+      "id": "mat-002",
+      "component": "back",
+      "component_detail": "two-piece bookmatched",
+      "material_class": "wood",
+      "species": "indian-rosewood",
+      "species_detail": "Dalbergia latifolia",
+      "supplier": "LMI",
+      "grade": "AA",
+      "physical": {
+        "dimensions_mm": { "length": 540, "width": 220, "thickness": 4.0 },
+        "weight_g": 310,
+        "density_kg_m3": 830
+      },
+      "acoustic": {
+        "tap_tones": [
+          { "mode": "longitudinal", "frequency_hz": 520, "damping": 0.015 },
+          { "mode": "cross", "frequency_hz": 160, "damping": 0.022 }
+        ]
+      },
+      "notes": "Medium figure, good tap response. Dense but not dead."
+    },
+    {
+      "id": "mat-003",
+      "component": "sides",
+      "material_class": "wood",
+      "species": "indian-rosewood",
+      "physical": {
+        "dimensions_mm": { "length": 800, "width": 120, "thickness": 2.0 }
+      }
+    },
+    {
+      "id": "mat-004",
+      "component": "neck",
+      "material_class": "wood",
+      "species": "mahogany",
+      "species_detail": "Swietenia macrophylla, Honduras"
+    }
+  ],
+  "acoustic_profiles": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "profile_date": "2026-02-19",
+      "profile_type": "partial",
+      "recording": {
+        "device": "iPhone 16 Pro",
+        "mic_position": "30cm from 12th fret, on-axis with soundhole",
+        "environment": "Quiet workshop, no HVAC",
+        "sample_rate_hz": 44100,
+        "bit_depth": 16
+      },
+      "notes_analyzed": [
+        {
+          "course": 6,
+          "position": 0,
+          "expected_frequency_hz": 82.41,
+          "detected_frequency_hz": 82.35,
+          "fundamental_strength": 0.72,
+          "harmonic_powers": [1.0, 0.68, 0.45, 0.31, 0.22, 0.15, 0.09, 0.06],
+          "spectral_centroid_hz": 412,
+          "sustain_t60_s": 4.2,
+          "attack_time_ms": 12,
+          "inharmonicity": 0.0003
+        },
+        {
+          "course": 5,
+          "position": 0,
+          "expected_frequency_hz": 110.00,
+          "detected_frequency_hz": 110.02,
+          "fundamental_strength": 0.75,
+          "harmonic_powers": [1.0, 0.72, 0.51, 0.35, 0.20, 0.12, 0.07],
+          "spectral_centroid_hz": 445,
+          "sustain_t60_s": 4.5,
+          "attack_time_ms": 10,
+          "inharmonicity": 0.0004
+        },
+        {
+          "course": 4,
+          "position": 0,
+          "expected_frequency_hz": 146.83,
+          "detected_frequency_hz": 146.80,
+          "fundamental_strength": 0.68,
+          "harmonic_powers": [1.0, 0.65, 0.48, 0.30, 0.18, 0.10],
+          "spectral_centroid_hz": 480,
+          "sustain_t60_s": 3.8,
+          "attack_time_ms": 11,
+          "inharmonicity": 0.0005
+        },
+        {
+          "course": 3,
+          "position": 0,
+          "expected_frequency_hz": 196.00,
+          "detected_frequency_hz": 195.95,
+          "fundamental_strength": 0.60,
+          "harmonic_powers": [1.0, 0.58, 0.40, 0.25, 0.14],
+          "spectral_centroid_hz": 520,
+          "sustain_t60_s": 3.5,
+          "attack_time_ms": 9,
+          "inharmonicity": 0.0006
+        },
+        {
+          "course": 2,
+          "position": 0,
+          "expected_frequency_hz": 246.94,
+          "detected_frequency_hz": 246.90,
+          "fundamental_strength": 0.65,
+          "harmonic_powers": [1.0, 0.55, 0.35, 0.20, 0.10],
+          "spectral_centroid_hz": 560,
+          "sustain_t60_s": 3.2,
+          "attack_time_ms": 8,
+          "inharmonicity": 0.0007
+        },
+        {
+          "course": 1,
+          "position": 0,
+          "expected_frequency_hz": 329.63,
+          "detected_frequency_hz": 329.58,
+          "fundamental_strength": 0.70,
+          "harmonic_powers": [1.0, 0.50, 0.30, 0.15, 0.08],
+          "spectral_centroid_hz": 610,
+          "sustain_t60_s": 2.8,
+          "attack_time_ms": 7,
+          "inharmonicity": 0.0008
+        }
+      ],
+      "body_resonance": {
+        "helmholtz_hz": 98,
+        "main_top_hz": 192,
+        "notes": "Measured by tap on bridge with strings damped"
+      },
+      "derived": {
+        "sustain_evenness": 0.82,
+        "brightness_gradient": 0.65,
+        "wolf_notes": []
+      },
+      "notes": "First profile, 24 hours after stringing. Strings still settling. Open strings only."
+    }
+  ],
+  "notes": [
+    {
+      "timestamp": "2026-02-01T10:00:00Z",
+      "text": "Starting build #14. This Engelmann top has been in my shop for 3 months, well acclimated. Grain is tight and even, slight bear claw. Pairing with the Indian rosewood set from LMI."
+    },
+    {
+      "timestamp": "2026-02-18T16:00:00Z",
+      "text": "Strung up for the first time. Immediate impression: balanced, clear, good note separation. Bass is warm but not boomy. Trebles sing. Needs time to open up."
+    }
+  ],
+  "meta": {
+    "created": "2026-02-01T10:00:00Z",
+    "modified": "2026-02-19T12:00:00Z",
+    "software": {
+      "name": "hand-authored",
+      "version": "1.0.0"
+    },
+    "sharing": {
+      "license": "CC-BY-4.0",
+      "anonymize_builder": false,
+      "community_upload": true,
+      "embargo_until": null
+    }
+  }
+}

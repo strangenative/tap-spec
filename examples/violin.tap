@@ -1,0 +1,139 @@
+{
+  "tap_version": "1.0",
+  "instrument": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "type": "violin",
+    "family": "bowed",
+    "scale_length_mm": 328,
+    "string_config": {
+      "count": 4,
+      "courses": 4,
+      "tuning": ["G3", "D4", "A4", "E5"],
+      "fretted": false
+    },
+    "build_date": "2025",
+    "description": "Stradivari model, European spruce top, Bosnian maple back and sides"
+  },
+  "builder": {
+    "id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+    "location": "Cremona, Italy",
+    "shop_name": "Bottega del Violino"
+  },
+  "materials": [
+    {
+      "id": "mat-001",
+      "component": "soundboard",
+      "material_class": "wood",
+      "species": "european-spruce",
+      "species_detail": "Picea abies, Val di Fiemme",
+      "grade": "master",
+      "physical": {
+        "density_kg_m3": 400,
+        "grain_spacing_mm": 1.5
+      },
+      "acoustic": {
+        "tap_tones": [
+          { "mode": "longitudinal", "frequency_hz": 720, "damping": 0.010 },
+          { "mode": "cross", "frequency_hz": 210, "damping": 0.016 }
+        ],
+        "speed_of_sound_long_m_s": 6100,
+        "radiation_ratio": 14.2
+      }
+    },
+    {
+      "id": "mat-002",
+      "component": "back",
+      "material_class": "wood",
+      "species": "maple",
+      "species_detail": "Acer pseudoplatanus, Bosnia",
+      "physical": {
+        "density_kg_m3": 620
+      },
+      "acoustic": {
+        "tap_tones": [
+          { "mode": "longitudinal", "frequency_hz": 580, "damping": 0.014 },
+          { "mode": "cross", "frequency_hz": 240, "damping": 0.020 }
+        ]
+      }
+    }
+  ],
+  "acoustic_profiles": [
+    {
+      "id": "c81d4e2e-bcf2-11e6-869b-7df92533d2db",
+      "profile_date": "2025-12-01",
+      "profile_type": "partial",
+      "recording": {
+        "device": "Zoom H6",
+        "mic_position": "40cm from f-hole, performer side",
+        "environment": "Concert hall, empty"
+      },
+      "notes_analyzed": [
+        {
+          "course": 1,
+          "position": 0,
+          "position_type": "fret",
+          "expected_frequency_hz": 196.00,
+          "detected_frequency_hz": 196.05,
+          "fundamental_strength": 0.55,
+          "harmonic_powers": [1.0, 0.80, 0.65, 0.52, 0.40, 0.30, 0.22, 0.15, 0.10],
+          "spectral_centroid_hz": 890,
+          "sustain_t60_s": 2.1
+        },
+        {
+          "course": 2,
+          "position": 0,
+          "position_type": "fret",
+          "expected_frequency_hz": 293.66,
+          "detected_frequency_hz": 293.70,
+          "fundamental_strength": 0.58,
+          "harmonic_powers": [1.0, 0.75, 0.60, 0.45, 0.32, 0.22, 0.14],
+          "spectral_centroid_hz": 950,
+          "sustain_t60_s": 1.9
+        },
+        {
+          "course": 3,
+          "position": 0,
+          "position_type": "fret",
+          "expected_frequency_hz": 440.00,
+          "detected_frequency_hz": 440.02,
+          "fundamental_strength": 0.62,
+          "harmonic_powers": [1.0, 0.70, 0.50, 0.35, 0.22, 0.12],
+          "spectral_centroid_hz": 1020,
+          "sustain_t60_s": 1.7
+        },
+        {
+          "course": 4,
+          "position": 0,
+          "position_type": "fret",
+          "expected_frequency_hz": 659.25,
+          "detected_frequency_hz": 659.30,
+          "fundamental_strength": 0.68,
+          "harmonic_powers": [1.0, 0.60, 0.38, 0.20, 0.10],
+          "spectral_centroid_hz": 1180,
+          "sustain_t60_s": 1.4
+        }
+      ],
+      "body_resonance": {
+        "helmholtz_hz": 275,
+        "main_top_hz": 460,
+        "notes": "Tap on bridge, strings damped with foam"
+      },
+      "notes": "Open strings, bowed with moderate pressure. Instrument is 11 months old, still opening up."
+    }
+  ],
+  "notes": [
+    {
+      "timestamp": "2025-12-01T14:00:00Z",
+      "text": "First formal profiling session. The instrument has been played daily for about 3 months since completion. Noticeably more resonant than at stringing — the G string in particular has gained warmth."
+    }
+  ],
+  "meta": {
+    "created": "2025-01-10T09:00:00Z",
+    "modified": "2025-12-01T15:00:00Z",
+    "sharing": {
+      "license": "CC-BY-4.0",
+      "anonymize_builder": true,
+      "community_upload": true
+    }
+  }
+}
