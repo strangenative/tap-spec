@@ -14,7 +14,7 @@ TAP is designed for luthiers, repair techs, researchers, and anyone who wants to
 - **Material-agnostic** — wood, carbon fiber, composites, anything
 - **Incrementally populated** — only two required fields (`tap_version` and `instrument.id`). Everything else is optional. A partial record is better than no record.
 - **Append-friendly** — acoustic profiles are timestamped snapshots that capture how an instrument's voice evolves
-- **Privacy-respecting** — built-in anonymization, licensing, and embargo controls
+- **Shareable** — simple JSON files that are easy to exchange, publish, and aggregate
 
 ## Quick Start
 

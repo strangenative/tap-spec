@@ -19,7 +19,7 @@ TAP is designed to be:
 - **Material-agnostic** — wood, carbon fiber, fiberglass, composites, gourds, skins, synthetics
 - **Incrementally populated** — every field is optional except `instrument.id` and `tap_version`. A file with only wood measurements is valid. A file with only a finished acoustic profile is valid. Spotty records are expected and welcomed.
 - **Append-friendly** — acoustic profiles are captured as timestamped snapshots, preserving the journey, not just the destination
-- **Shareable** — built-in licensing and anonymization so builders can contribute data on their own terms
+- **Shareable** — simple JSON files that are easy to exchange, publish, and aggregate
 
 ---
 
@@ -292,33 +292,9 @@ Free-form timestamped journal entries. The builder's narrative.
     "version": "1.0.0",
     "platform": "macOS"
   },
-  "sharing": {
-    "license": "CC-BY-4.0",
-    "anonymize_builder": false,
-    "community_upload": true,
-    "embargo_until": null
-  },
   "custom": {}
 }
 ```
-
-#### `sharing.license` values
-
-| Value | Meaning |
-|---|---|
-| `private` | Not shared. Local only. |
-| `CC0` | Public domain. No attribution required. |
-| `CC-BY-4.0` | Share freely with attribution. **Recommended default.** |
-| `CC-BY-NC-4.0` | Share non-commercially with attribution. |
-| `CC-BY-SA-4.0` | Share with attribution, same license on derivatives. |
-
-#### `sharing.anonymize_builder`
-
-When `true`, community databases should strip the `builder` section (or replace with a pseudonymous ID). The build data is shared; the builder's identity is not.
-
-#### `sharing.embargo_until`
-
-ISO date. Data is shared only after this date. Useful for builders who want to publish data after a guitar is sold/delivered.
 
 #### `custom`
 
@@ -349,7 +325,6 @@ A **conforming TAP reader** must:
 3. **Snapshots, not state.** Profiles are immutable snapshots in time. The journey is as valuable as the destination.
 4. **Human-readable.** JSON, meaningful field names, inline documentation via `notes` fields everywhere.
 5. **Extensible.** Unknown fields are preserved. The `custom` field in `meta` is a sanctioned extension point. Future versions of the spec add fields but don't remove them.
-6. **Privacy-respecting.** Sharing is opt-in. Anonymization is a first-class feature. Embargo dates allow deferred sharing.
 
 ---
 

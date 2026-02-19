@@ -23,8 +23,7 @@ We welcome `.tap` files from real instruments. To contribute:
 
 **Guidelines for examples:**
 - Use a fresh UUID v4 for `instrument.id`
-- Set `meta.sharing.license` to `CC-BY-4.0` or `CC0`
-- If you want to remain anonymous, set `meta.sharing.anonymize_builder` to `true` and omit personal details from `builder`
+- Omit personal details from `builder` if you prefer to remain anonymous
 - Include a brief description in `instrument.description`
 
 ### Propose Spec Changes

@@ -207,11 +207,6 @@
       "name": "hand-authored",
       "version": "1.0.0"
     },
-    "sharing": {
-      "license": "CC-BY-4.0",
-      "anonymize_builder": false,
-      "community_upload": true,
-      "embargo_until": null
-    }
+    "custom": {}
   }
 }
