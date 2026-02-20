@@ -1,12 +1,14 @@
-# TAP — Acoustic Profile for Stringed Instruments
+# TAP
 
-An open standard for capturing the acoustic identity of stringed instruments, from raw materials to finished masterpiece.
+### A standardized schema for acoustic instrument data
+
+An open standard so builders can capture, compare, and learn from each other's instruments.
+
+---
 
 ## What is TAP?
 
 A `.tap` file is a JSON document that records the acoustic and physical properties of a stringed instrument — what it's made of, how it sounds, and how it changes over time.
-
-TAP is designed for luthiers, repair techs, researchers, and anyone who wants to understand and share the voice of a stringed instrument.
 
 ### Key Principles
 

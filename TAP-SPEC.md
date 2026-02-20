@@ -1,6 +1,8 @@
-# TAP — Acoustic Profile
+# TAP
 
-### An open standard for capturing the acoustic identity of stringed instruments, from raw materials to finished masterpiece.
+### A standardized schema for acoustic instrument data
+
+An open standard so builders can capture, compare, and learn from each other's instruments.
 
 **Version:** 1.0-draft  
 **Extension:** `.tap`  
